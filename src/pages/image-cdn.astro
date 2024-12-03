@@ -60,24 +60,29 @@ detection, so format is set to WebP.
 <Layout title="Image CDN">
     <div class="flex flex-col gap-12 sm:gap-16">
         <section class="space-y-8">
-            <ContextAlert
+            <!-- <ContextAlert
                 addedChecksFunction={(ctx) => {
                     return ctx === 'dev' ? devModeWarning : null;
                 }}
-            />
-            <h1>Image CDN</h1>
+            /> -->
+            <h1>Euler Integration</h1>
+            <p> Base on the first investigation, we have got like this:</p>
+            <figure>
+                <img src={'./images/plot.png'} class="border-2 border-white rounded-lg" />
+            </figure>
+          
         </section>
         <section>
-            <Markdown content={astroImageSnippet} class="mb-8" />
-            <figure>
+            <!-- <Markdown content={astroImageSnippet} class="mb-8" /> -->
+            <!-- <figure>
                 <Image src={corgi} alt="Corgi" class="border-2 border-white rounded-lg" />
                 <figcaption class="mt-2 text-sm italic">
                     Credit: photo by <a href="https://unsplash.com/@alvannee">Alvan Nee</a> on
                     <a href="https://unsplash.com/photos/long-coated-white-and-brown-dog-lvFlpqEvuRM"> Unsplash </a>
                 </figcaption>
-            </figure>
+            </figure> -->
         </section>
-        <section>
+        <!-- <section>
             <Markdown content={originalVsCdnSnippet} class="mb-8" />
             <div class="diff aspect-[3/2] rounded-lg border-2 border-white">
                 <div class="diff-item-1">
@@ -98,7 +103,7 @@ detection, so format is set to WebP.
                 </div>
                 <div class="diff-resizer"></div>
             </div>
-        </section>
+        </section> -->
     </div>
 </Layout>
 
